@@ -1,0 +1,4 @@
+.dashboard {
+    margin-left: var(--sidebar-width);
+    padding: 5px;
+}

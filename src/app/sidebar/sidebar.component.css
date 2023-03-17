@@ -1,0 +1,7 @@
+.sidebar {
+    width: var(--sidebar-width);
+    height: calc(100vw - var(--toolbar-height));
+    background-color: #292c30;
+    color: #f0f3f7;
+    position: fixed;
+}
