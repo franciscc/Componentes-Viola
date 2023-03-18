@@ -1,4 +1,96 @@
+:root {
+    --padding-tp: 20px;
+}
+
 .dashboard {
     margin-left: var(--sidebar-width);
-    padding: 5px;
+    height: calc(100vh - var(--toolbar-height) - var(--padding-tp));
+    padding-left: 20px;
+    padding-top: 20px;
 }
+
+.main-content {
+    display: block;
+    height: 800px;
+    margin-left: 120px;
+}
+
+.cards {
+    display: flex
+}
+
+.cards mat-card {
+    margin-right: 15px;
+    height: 165px;
+    width: 250px;
+}
+
+mat-card {
+    border-radius: 15px;
+    transition: 1s;
+}
+
+mat-card .card-content {
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.credito {
+    background: #AB8F60;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.card-subheader {
+    font-size: smaller;
+    color: gray;
+}
+
+.credito .card-subheader {
+    font-size: smaller;
+    color: black;
+}
+
+.credito .card-amount {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.card-amount {
+    margin-top: 7px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.card-footer {
+    margin-top: 20px;
+    display: flex;
+}
+
+.card-footer .movimientos{
+    margin: 5px
+}
+
+.card-footer .cbualias{
+    margin: 5px
+}
+
+.card-amount-title {
+    font-size: 15px;
+    color: black;
+}
+
+.card-amount-dolares {
+    margin-top:2px;
+    font-size: 17px;
+}
+
+mat-card:hover {
+    cursor: pointer;
+    transform: translate(0px, -5px);
+    transition: .5s;
+}
+

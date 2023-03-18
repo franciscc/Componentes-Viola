@@ -5,6 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
 })
+
 export class DashboardComponent {
+  
+  visatitle:string = "VISA Credito";
+  americantitle:string = "American Express Credito";
+  cuentatitle:string = "Cuenta unica"
 
 }

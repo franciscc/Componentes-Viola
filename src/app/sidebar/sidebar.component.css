@@ -1,7 +1,45 @@
 .sidebar {
     width: var(--sidebar-width);
-    height: calc(100vw - var(--toolbar-height));
+    height: calc(100vh - var(--toolbar-height));
     background-color: #292c30;
     color: #f0f3f7;
     position: fixed;
+    margin: 0;
+}
+
+.sidebar header {
+    text-align: center;
+    font-size: larger;
+    line-height: 70px;
+}
+
+ul{
+    padding: 0;
+}
+
+ul a{
+    display: block;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 15px;
+    color: white;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    transition: .5s;
+
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li:hover a {
+    background-color: rgb(27, 82, 106);
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
 }
