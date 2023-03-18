@@ -10,6 +10,6 @@ export class DashboardComponent {
   
   visatitle:string = "VISA Credito";
   americantitle:string = "American Express Credito";
-  cuentatitle:string = "Cuenta unica"
-
+  cuentatitle:string = "Cuenta unica";
+  name = "Francisco";
 }
